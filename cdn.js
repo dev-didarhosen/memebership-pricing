@@ -143,36 +143,36 @@
     
         $('#ranger').change(function(){
           console.log($('#ranger').val())
-          if($('#ranger').val() < 10){
+          if($('#ranger').val() < 30){
             
             $('.pricing-card').removeClass('active-1 active-2 active-3 display-hidden');
             
             $('.pricing-card').addClass('active-1');
             
             
-          } else if($('#ranger').val() > 10 && $('#ranger').val() < 20){
+          } else if($('#ranger').val() > 31 && $('#ranger').val() < 40){
             
             $('.pricing-card').removeClass('active-1 active-2 active-3');
             $('.pricing-card').addClass('active-2 display-hidden');
             
-          } else if($('#ranger').val() > 21 && $('#ranger').val() < 30){
+          } else if($('#ranger').val() > 41 && $('#ranger').val() <= 50){
             
             $('.pricing-card').removeClass('active-1 active-2 active-3');
             $('.pricing-card').addClass('active-3 display-hidden');
           }
             
-          } else if($('#ranger').val() > 31 && $('#ranger').val() < 100){
+//           } else if($('#ranger').val() > 31 && $('#ranger').val() < 100){
             
-            $('.pricing-card').removeClass('active-1 active-2 active-3');
-            $('.pricing-card').addClass('active-3 display-hidden');
-          }
+//             $('.pricing-card').removeClass('active-1 active-2 active-3');
+//             $('.pricing-card').addClass('active-3 display-hidden');
+//           }
 
 
-           } else if($('#ranger').val() > 11 && $('#ranger').val() < 20){
+//            } else if($('#ranger').val() > 11 && $('#ranger').val() < 20){
             
-            $('.pricing-card').removeClass('active-1 active-2 active-3');
-            $('.pricing-card').addClass('active-3 display-hidden');
-          }
+//             $('.pricing-card').removeClass('active-1 active-2 active-3');
+//             $('.pricing-card').addClass('active-3 display-hidden');
+//           }
           
          
         })
