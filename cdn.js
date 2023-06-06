@@ -143,21 +143,21 @@
     
         $('#ranger').change(function(){
       console.log($('#ranger').val())
-      if($('#ranger').val() < 11){
+      if($('#ranger').val() < 16){
         
-        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 display-hidden');
+        $('.pricing-card').removeClass('active-1 active-2 active-3 display-hidden');
         
         $('.pricing-card').addClass('active-1');
         
         
-      } else if($('#ranger').val() > 10 && $('#ranger').val() < 21){
+      } else if($('#ranger').val() > 17 && $('#ranger').val() < 35){
         
-        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5');
+        $('.pricing-card').removeClass('active-1 active-2 active-3');
         $('.pricing-card').addClass('active-2 display-hidden');
         
-      } else if($('#ranger').val() > 20 && $('#ranger').val() < 31){
+      } else if($('#ranger').val() > 34 && $('#ranger').val() < 51){
         
-        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5');
+        $('.pricing-card').removeClass('active-1 active-2 active-3');
         $('.pricing-card').addClass('active-3 display-hidden');
           
 //       } else if($('#ranger').val() > 30 && $('#ranger').val() < 41){
