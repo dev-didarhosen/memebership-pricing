@@ -4,6 +4,7 @@
         "function" == typeof define && define.amd ? define(["jquery"], a) : a("object" == typeof exports ? require("jquery") : jQuery)
     }(function(a) {
         "use strict";
+        alert('test')
     
         function b() {
             var a = document.createElement("input");
