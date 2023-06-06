@@ -160,17 +160,17 @@
         $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5');
         $('.pricing-card').addClass('active-3 display-hidden');
           
-      } else if($('#ranger').val() > 30 && $('#ranger').val() < 41){
+//       } else if($('#ranger').val() > 30 && $('#ranger').val() < 41){
         
-        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5');
-        $('.pricing-card').addClass('active-4 display-hidden');
+//         $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5');
+//         $('.pricing-card').addClass('active-4 display-hidden');
           
-      } else if($('#ranger').val() > 40 && $('#ranger').val() < 51){
+//       } else if($('#ranger').val() > 40 && $('#ranger').val() < 51){
         
-        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5');
-        $('.pricing-card').addClass('active-5 display-hidden');
+//         $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5');
+//         $('.pricing-card').addClass('active-5 display-hidden');
           
-      }
+//       }
      
     })
         
