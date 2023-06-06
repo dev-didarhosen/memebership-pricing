@@ -160,6 +160,19 @@
             $('.pricing-card').removeClass('active-1 active-2 active-3');
             $('.pricing-card').addClass('active-3 display-hidden');
           }
+            
+          } else if($('#ranger').val() > 51 && $('#ranger').val() < 100){
+            
+            $('.pricing-card').removeClass('active-1 active-2 active-3');
+            $('.pricing-card').addClass('active-3 display-hidden');
+          }
+
+
+           } else if($('#ranger').val() > 11 && $('#ranger').val() < 50){
+            
+            $('.pricing-card').removeClass('active-1 active-2 active-3');
+            $('.pricing-card').addClass('active-3 display-hidden');
+          }
           
          
         })
