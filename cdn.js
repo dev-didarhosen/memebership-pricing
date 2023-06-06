@@ -150,7 +150,7 @@
             $('.pricing-card').addClass('active-1');
             
             
-          } else if($('#ranger').val() > 4 && $('#ranger').val() < 10){
+          } else if($('#ranger').val() > 1 && $('#ranger').val() < 10){
             
             $('.pricing-card').removeClass('active-1 active-2 active-3');
             $('.pricing-card').addClass('active-2 display-hidden');
