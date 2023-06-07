@@ -106,29 +106,29 @@ function g(a, b) {
 
     $('#ranger').change(function(){
       console.log($('#ranger').val())
-      if($('#ranger').val() < 6){
+      if($('#ranger').val() = 1){
         $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10 display-hidden');
         $('.pricing-card').addClass('active-1');
         $('#w-node-_02d915ff-8488-fc1c-5af8-645f6ca39f96-5de2fc3c').removeClass('price_d_block');
       } 
      
-     else if($('#ranger').val() > 5 && $('#ranger').val() < 11){
+     else if($('#ranger').val() = 2){
         $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
         $('.pricing-card').addClass('active-2 display-hidden');
         $('#w-node-_02d915ff-8488-fc1c-5af8-645f6ca39f96-5de2fc3c').addClass('price_d_block');
       } 
      
-     else if($('#ranger').val() > 10 && $('#ranger').val() < 16){
+     else if($('#ranger').val() = 3){
         $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
         $('.pricing-card').addClass('active-3');
       } 
      
-     else if($('#ranger').val() > 15 && $('#ranger').val() < 21){
+     else if($('#ranger').val() = 4){
         $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
         $('.pricing-card').addClass('active-4');
       } 
      
-     else if($('#ranger').val() > 20 && $('#ranger').val() < 26){
+     else if($('#ranger').val() = 5){
         $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
         $('.pricing-card').addClass('active-5');
       } 
