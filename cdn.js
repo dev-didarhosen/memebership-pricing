@@ -197,4 +197,3 @@
             $('.slide').removeClass('active');
           }
       });
-      
