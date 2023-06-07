@@ -106,23 +106,56 @@ function g(a, b) {
 
     $('#ranger').change(function(){
       console.log($('#ranger').val())
-      if($('#ranger').val() < 11){
-        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 display-hidden');
+      if($('#ranger').val() < 6){
+        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10 display-hidden');
         $('.pricing-card').addClass('active-1');
         $('#w-node-_02d915ff-8488-fc1c-5af8-645f6ca39f96-5de2fc3c').removeClass('price_d_block');
-      } else if($('#ranger').val() > 10 && $('#ranger').val() < 21){
-        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5');
+      } 
+     
+     else if($('#ranger').val() > 5 && $('#ranger').val() < 11){
+        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
         $('.pricing-card').addClass('active-2 display-hidden');
         $('#w-node-_02d915ff-8488-fc1c-5af8-645f6ca39f96-5de2fc3c').addClass('price_d_block');
-      } else if($('#ranger').val() > 20 && $('#ranger').val() < 31){
-        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5');
+      } 
+     
+     else if($('#ranger').val() > 10 && $('#ranger').val() < 16){
+        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
         $('.pricing-card').addClass('active-3');
-      } else if($('#ranger').val() > 30 && $('#ranger').val() < 41){
-        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5');
+      } 
+     
+     else if($('#ranger').val() > 15 && $('#ranger').val() < 21){
+        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
         $('.pricing-card').addClass('active-4');
-      } else if($('#ranger').val() > 40 && $('#ranger').val() < 51){
-        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5');
+      } 
+     
+     else if($('#ranger').val() > 20 && $('#ranger').val() < 26){
+        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
         $('.pricing-card').addClass('active-5');
+      } 
+     
+     else if($('#ranger').val() > 25 && $('#ranger').val() < 31){
+        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
+        $('.pricing-card').addClass('active-6');
+      } 
+     
+     else if($('#ranger').val() > 30 && $('#ranger').val() < 36){
+        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
+        $('.pricing-card').addClass('active-7');
+      } 
+     
+     else if($('#ranger').val() > 35 && $('#ranger').val() < 41){
+        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
+        $('.pricing-card').addClass('active-8');
+      } 
+     
+     else if($('#ranger').val() > 40 && $('#ranger').val() < 46){
+        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
+        $('.pricing-card').addClass('active-9');
+      } 
+     
+     else if($('#ranger').val() > 45 && $('#ranger').val() < 51){
+        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
+        $('.pricing-card').addClass('active-10');
       }
     }) 
   $( document ).ready(function() {
