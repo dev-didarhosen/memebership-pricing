@@ -121,11 +121,13 @@ function g(a, b) {
      else if($('#ranger').val() > 2 && $('#ranger').val() < 4){
         $('.price_one').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
         $('.price_one').addClass('active-3');
+      $('#w-node-_02d915ff-8488-fc1c-5af8-645f6ca39f96-5de2fc3c').addClass('price_d_block');
       } 
      
      else if($('#ranger').val() > 3 && $('#ranger').val() < 5){
         $('.price_one').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
         $('.price_one').addClass('active-4');
+      $('#w-node-_02d915ff-8488-fc1c-5af8-645f6ca39f96-5de2fc3c').addClass('price_d_block');
       } 
      
      else if($('#ranger').val() > 4 && $('#ranger').val() < 6){
