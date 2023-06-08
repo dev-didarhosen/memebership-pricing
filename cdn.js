@@ -161,7 +161,7 @@ function g(a, b) {
 
 
 $('#rang_slider_two').change(function(){
-      console.log($('#ranger').val())
+      console.log("TEst" + $('#rang_slider_two').val())
       if($('#rang_slider_two').val() < 2){
         $('.pric_one .pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10 display-hidden');
         $('.pric_one .pricing-card').addClass('active-1');
