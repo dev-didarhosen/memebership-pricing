@@ -107,55 +107,55 @@ function g(a, b) {
     $('#ranger').change(function(){
       console.log($('#ranger').val())
       if($('#ranger').val() < 2){
-        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10 display-hidden');
-        $('.pricing-card').addClass('active-1');
+        $('.price_one').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10 display-hidden');
+        $('.price_one').addClass('active-1');
         $('#w-node-_02d915ff-8488-fc1c-5af8-645f6ca39f96-5de2fc3c').removeClass('price_d_block');
       } 
      
      else if($('#ranger').val() > 1 && $('#ranger').val() < 3){
-        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
-        $('.pricing-card').addClass('active-2 display-hidden');
+        $('.price_one').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
+        $('.price_one').addClass('active-2 display-hidden');
         $('#w-node-_02d915ff-8488-fc1c-5af8-645f6ca39f96-5de2fc3c').addClass('price_d_block');
       } 
      
      else if($('#ranger').val() > 2 && $('#ranger').val() < 4){
-        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
-        $('.pricing-card').addClass('active-3');
+        $('.price_one').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
+        $('.price_one').addClass('active-3');
       } 
      
      else if($('#ranger').val() > 3 && $('#ranger').val() < 5){
-        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
-        $('.pricing-card').addClass('active-4');
+        $('.price_one').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
+        $('.price_one').addClass('active-4');
       } 
      
      else if($('#ranger').val() > 4 && $('#ranger').val() < 6){
-        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
-        $('.pricing-card').addClass('active-5');
+        $('.price_one').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
+        $('.price_one').addClass('active-5');
       } 
      
      else if($('#ranger').val() > 5 && $('#ranger').val() < 7){
-        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
-        $('.pricing-card').addClass('active-6');
+        $('.price_one').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
+        $('.price_one').addClass('active-6');
       } 
      
      else if($('#ranger').val() > 6 && $('#ranger').val() < 8){
-        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
-        $('.pricing-card').addClass('active-7');
+        $('.price_one').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
+        $('.price_one').addClass('active-7');
       } 
      
      else if($('#ranger').val() > 7 && $('#ranger').val() < 9){
-        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
-        $('.pricing-card').addClass('active-8');
+        $('.price_one').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
+        $('.price_one').addClass('active-8');
       } 
      
      else if($('#ranger').val() > 8 && $('#ranger').val() < 10){
-        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
-        $('.pricing-card').addClass('active-9');
+        $('.price_one').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
+        $('.price_one').addClass('active-9');
       } 
      
      else if($('#ranger').val() > 9 && $('#ranger').val() < 11){
-        $('.pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
-        $('.pricing-card').addClass('active-10');
+        $('.price_one').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
+        $('.price_one').addClass('active-10');
       }
     }) 
 
