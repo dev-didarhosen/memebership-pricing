@@ -158,6 +158,73 @@ function g(a, b) {
         $('.pricing-card').addClass('active-10');
       }
     }) 
+
+
+$('#rang_slider_two').change(function(){
+      console.log($('#ranger').val())
+      if($('#rang_slider_two').val() < 2){
+        $('.pric_one .pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10 display-hidden');
+        $('.pric_one .pricing-card').addClass('active-1');
+        $('#w-node-_02d915ff-8488-fc1c-5af8-645f6ca39f96-5de2fc3c').removeClass('price_d_block');
+      } 
+     
+     else if($('#rang_slider_two').val() > 1 && $('#rang_slider_two').val() < 3){
+        $('.pric_one .pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
+        $('.pric_one .pricing-card').addClass('active-2 display-hidden');
+        $('#w-node-_02d915ff-8488-fc1c-5af8-645f6ca39f96-5de2fc3c').addClass('price_d_block');
+      } 
+     
+     else if($('#rang_slider_two').val() > 2 && $('#rang_slider_two').val() < 4){
+        $('.pric_one .pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
+        $('.pric_one .pricing-card').addClass('active-3');
+      } 
+     
+     else if($('#rang_slider_two').val() > 3 && $('#rang_slider_two').val() < 5){
+        $('.pric_one .pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
+        $('.pric_one .pricing-card').addClass('active-4');
+      } 
+     
+     else if($('#rang_slider_two').val() > 4 && $('#rang_slider_two').val() < 6){
+        $('.pric_one .pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
+        $('.pric_one .pricing-card').addClass('active-5');
+      } 
+     
+     else if($('#rang_slider_two').val() > 5 && $('#rang_slider_two').val() < 7){
+        $('.pric_one .pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
+        $('.pric_one .pricing-card').addClass('active-6');
+      } 
+     
+     else if($('#rang_slider_two').val() > 6 && $('#rang_slider_two').val() < 8){
+        $('.pric_one .pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
+        $('.pric_one .pricing-card').addClass('active-7');
+      } 
+     
+     else if($('#rang_slider_two').val() > 7 && $('#rang_slider_two').val() < 9){
+        $('.pric_one .pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
+        $('.pric_one .pricing-card').addClass('active-8');
+      } 
+     
+     else if($('#rang_slider_two').val() > 8 && $('#rang_slider_two').val() < 10){
+        $('.pric_one .pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
+        $('.pric_one .pricing-card').addClass('active-9');
+      } 
+     
+     else if($('#rang_slider_two').val() > 9 && $('#rang_slider_two').val() < 11){
+        $('.pric_one .pricing-card').removeClass('active-1 active-2 active-3 active-4 active-5 active-6 active-7 active-8 active-9 active-10');
+        $('.pric_one .pricing-card').addClass('active-10');
+      }
+    }) 
+
+
+
+
+
+
+
+
+
+
+
   $( document ).ready(function() {
   // Handler for .ready() called.
     $('.slide').removeClass('active');
