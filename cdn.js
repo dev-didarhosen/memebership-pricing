@@ -219,14 +219,6 @@ $('#rang_slider_two').change(function(){
 
 
 
-
-
-
-
-
-
-
-
   $( document ).ready(function() {
   // Handler for .ready() called.
     $('.slide').removeClass('active');
